@@ -1,0 +1,140 @@
+#practice questions
+
+# Q1. Print your introduction using print()
+
+print("Hello! My name is Bhumi Chauhan.")
+print("i live in Bardoli")
+print("I am a BCA student.")
+print("I am learning Python.")
+print("I have worked on 1 minor project.")
+
+# Q2. Create variables for name, age, city, and course
+
+name = "Bhumi"
+age = 20
+city = "Bardoli"
+course = "BCA"
+
+print(name)
+print(age)
+print(city)
+print(course)
+
+
+# Q3. Check data type of all variables
+
+print(type(name))
+print(type(age))
+print(type(city))
+print(type(course))
+
+
+# Q4. Take two numbers and perform operations
+
+n1= 20
+n2= 6
+print("Addition:", n1+ n2)
+print("Subtraction:", n1 - n2)
+print("Multiplication:", n1 * n2)
+print("Division:", n1 / n2)
+print("Floor Division:", n1 // n2)
+print("Modulus:", n1 % n2)
+print("Power:", n1 ** n2)
+
+
+# Q5. Convert string "500" into integer and add 100
+
+string_number = "500"
+integer_number = int(string_number)
+result = integer_number + 100
+print(result)
+
+# Q6. Create a marks calculator for 5 subjects
+
+sub1 = 80
+sub2 = 90
+sub3 = 70
+sub4 = 80
+sub5 = 90
+total = sub1 + sub2 + sub3 + sub4 + sub5
+average = total / 5
+print("Total Marks:", total)
+print("Average Marks:", average)
+
+
+# Q7. Create a simple interest calculator
+
+principal = 10000
+rate = 5
+time = 2
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest:", simple_interest)
+
+# Q8. Check whether a person is eligible for voting
+
+age = 20
+print(age >= 18)
+
+# Q9. Check whether "Python" exists in the string
+
+text = "Python is powerful"
+print("Python" in text)
+
+
+# Q10. Create a mini bill calculator
+
+item_price = 500
+quantity = 3
+discount = 100
+total_price = item_price * quantity
+final_bill = total_price - discount
+print("Final Bill Amount:", final_bill)
+
+
+#Home work question
+
+
+# 1. Personal introduction
+
+print("Hello! My name is Bhumi.")
+print("I am 20 years old.")
+print("I live in Bardoli.")
+print("I am a BCA student.")
+
+
+# 2. Calculator
+
+num1 = 20
+num2 = 10
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+
+
+# 3. Percentage calculator
+
+sub1 = 85
+sub2 = 90
+sub3 = 78
+sub4 = 88
+sub5 = 95
+total = sub1 + sub2 + sub3 + sub4 + sub5
+percentage = total / 5
+print("Percentage:", percentage, "%")
+
+
+# 4. Simple interest calculator
+
+principal = 10000
+rate = 5
+time = 2
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest:", simple_interest)
+
+
+# 5. Temperature conversion: Celsius to Fahrenheit
+
+celsius = 25
+fahrenheit = (celsius * 9 / 5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
